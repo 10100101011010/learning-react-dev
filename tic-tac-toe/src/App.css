@@ -1,0 +1,81 @@
+/* Overall page layout */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main game container */
+.game {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+/* Board container */
+.game-board {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Status text */
+.status {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Each row of squares */
+.board-row {
+  display: flex;
+}
+
+/* Square buttons */
+.square {
+  width: 60px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  border: 1px solid #999;
+  background: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Hover effect */
+.square:hover {
+  background: #e6e6e6;
+}
+
+/* Focus effect (accessibility) */
+.square:focus {
+  background: #ddd;
+}
+
+/* Game info panel (move history) */
+.game-info {
+  margin-left: 20px;
+}
+
+.game-info ol {
+  padding-left: 20px;
+}
+
+.game-info button {
+  margin-bottom: 5px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.game-info button:hover {
+  background: #eee;
+}
