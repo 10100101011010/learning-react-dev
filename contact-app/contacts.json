@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "telp": "0812312312312"
+    },
+    {
+      "id": 2,
+      "name": "Alex AAA",
+      "telp": "1213412414124"
+    },
+    {
+      "id": 3,
+      "name": "Raton Bimanto",
+      "telp": "1234567890123"
+    }
+  ]
+} 
